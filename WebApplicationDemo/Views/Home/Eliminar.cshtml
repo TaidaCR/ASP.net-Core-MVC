@@ -1,0 +1,13 @@
+﻿@model Tarea
+
+<h2>Eliminar tarea</h2>
+
+<p>¿Está segura que desea eliminar la tarea <strong>@Model.Nombre</strong>?</p>
+
+<form method="post" asp-action="Eliminar">
+    <input type="hidden" asp-for="Id"/>
+    <input type="submit" value="Eliminar" class="btn btn-danger"/>
+    <a asp-action="Index" class="btn btn-primary">Cancelar</a>
+</form>
+
+

@@ -1,0 +1,67 @@
+﻿@model IEnumerable<WebApplicationDemo.Models.Tarea>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Listado de tareas</h2>
+
+<p>
+    @Html.ActionLink("Crear una nueva tareas", "Crear")
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @* Obtiene el [Display(Name ="Tarea")] *@
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaVencimiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstaCompleta)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                @*  Se utiliza para mostrar el valor de la propiedad de un modelo en la vista. *@
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaVencimiento)
+                </td>
+                <td>
+                    @* @Html.Raw(item.EstaCompleta == true ? "Sí" : "No") *@
+                    @* <input type="checkbox" @(item.EstaCompleta ? "checked" : "") disabled /> *@
+
+                    <form asp-action="ActualizarEstado" method="post">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <input type="checkbox"
+                               name="estado"
+                               value="true"
+                        @(item.EstaCompleta ? "checked" : "")
+                               onchange="this.form.submit()" />
+                    </form>
+                </td>
+                <td>
+                   @*Genera un link// Texto que se ve//     método en el controller*@
+                    @Html.ActionLink("Detalles",            "Detalles", new { id = item.Id }) |
+                    @Html.ActionLink("Editar",              "Editar", new {id=item.Id}) |
+                    @Html.ActionLink("Eliminar",            "Eliminar", new { id = item.Id }) 
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
