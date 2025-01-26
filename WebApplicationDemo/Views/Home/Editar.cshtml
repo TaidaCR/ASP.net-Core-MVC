@@ -8,44 +8,64 @@
 
 <div class="row">
     <div class="col-md-4">
-        @* Metodo editar ASP-ACTION indica el metodo *@
-        <form asp-action="Editar">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
+        <form method="post" action="/Home/Editar">
+            <div class="text-danger" id="validation-summary"></div>
+
+            <!-- Campo oculto para el Id -->
+            <input type="hidden" name="Id" value="@Model.Id" />
+
+            <!-- Campo manual para Nombre -->
             <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control"/>
-                <span asp-validation-for="Nombre" class="text-danger"></span>
+                <label for="Nombre" class="control-label">Nombre</label>
+                <input type="text" id="Nombre" name="Nombre" class="form-control" value="@Model.Nombre" />
+                <div class="text-danger" id="Nombre-error"></div>
             </div>
+
+            <!-- Campo manual para Descripción -->
             <div class="form-group">
-                <label asp-for="Descripcion" class="control-label"></label>
-                <input asp-for="Descripcion" class="form-control" />
-                <span asp-validation-for="Descripcion" class="text-danger"></span>
+                <label for="Descripcion" class="control-label">Descripción</label>
+                <input type="text" id="Descripcion" name="Descripcion" class="form-control" value="@Model.Descripcion" />
+                <div class="text-danger" id="Descripcion-error"></div>
             </div>
+
+            <!-- Campo manual para FechaVencimiento -->
             <div class="form-group">
-                <label asp-for="FechaVencimiento" class="control-label"></label>
-                <input asp-for="FechaVencimiento" class="form-control" />
-                <span asp-validation-for="FechaVencimiento" class="text-danger"></span>
+                <label for="FechaVencimiento" class="control-label">Fecha de vencimiento</label>
+                <input type="date" id="FechaVencimiento" name="FechaVencimiento" class="form-control" value="@Model.FechaVencimiento.ToString("yyyy-MM-dd")" />
+                <div class="text-danger" id="FechaVencimiento-error"></div>
             </div>
+
+            <!-- Campo manual para EstaCompleta (Checkbox) -->
             <div class="form-group">
-                <label asp-for="EstaCompleta" class="control-label"></label>
-                <input asp-for="EstaCompleta" type="checkbox" class="form-check-input" />
-                @* <input type="radio" value="true" name="EstaCompleta" @Html.Raw(Model.EstaCompleta ? "checked" : "") /> Sí<br />
-                <input type="radio" value="false" name="EstaCompleta" @Html.Raw(Model.EstaCompleta ? "checked" : "") /> No<br /> *@
-                <span asp-validation-for="EstaCompleta" class="text-danger"></span>
+                <label for="EstaCompleta" class="control-label">¿Está completa?</label>
+                <input type="checkbox" id="EstaCompleta" name="EstaCompleta" class="form-check-input" @(Model.EstaCompleta ? "checked" : "") />
+                <div class="text-danger" id="EstaCompleta-error"></div>
             </div>
+
+            <!-- Campo manual para Explicación -->
+            <div class="form-group">
+                <label for="Explicacion" class="control-label">Explicación</label>
+                <input type="text" id="Explicacion" name="Explicacion" class="form-control" value="@Model.Explicacion" />
+                <div class="text-danger" id="Explicacion-error"></div>
+            </div>
+
+            <!-- Campo manual para Prioridad (Select) -->
+            <div class="form-group">
+                <label asp-for="Prioridad" class="control-label"></label>
+                <select asp-for="Prioridad" class="form-control" asp-items="@(new SelectList(new[] { "Alta", "Media", "Baja" }))">
+                    <option value="">Seleccione una prioridad</option> <!-- Opción por defecto -->
+                </select>
+                <span asp-validation-for="Prioridad" class="text-danger"></span>
+            </div>
+
+            <!-- Botón de enviar -->
             <div class="form-group">
                 <input type="submit" value="Guardar" class="btn btn-primary" />
-            </div>
-            <div class="form-group">
-                <label asp-for="Explicacion" class="control-label"></label>
-                <input asp-for="Explicacion" class="form-control" />
-                <span asp-validation-for="Explicacion" class="text-danger"></span>
             </div>
         </form>
     </div>
 </div>
-<div>
-    <a asp-action="Index">Volver a la lista de tareas</a>
-</div>
 
+<div>
+    <a href="/Home/Index">Volver a la lista de tareas</a>
+</div>

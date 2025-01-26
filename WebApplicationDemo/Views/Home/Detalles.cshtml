@@ -14,5 +14,6 @@
         @* <p class="card-text">Completada: @Html.Raw(Model.EstaCompleta == true ? "Sí" : "No")</p> *@
         <p class="card-text">Completada: <input type="checkbox" @(Model.EstaCompleta ? "checked" : "") disabled /></p>
         <p class="card-text">Explicacion: @Model.Explicacion</p>
+        <p class="card-text">Prioridad: @Model.Prioridad</p>
     </div>
 </div>

@@ -25,6 +25,12 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\taica\source\repos\WebApplicationDemo\WebApplicationDemo
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/taica/source/repos/WebApplicationDemo/WebApplicationDemo/Views/Home/Calendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWxlbmRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/taica/source/repos/WebApplicationDemo/WebApplicationDemo/Views/Home/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhci5jc2h0bWw=

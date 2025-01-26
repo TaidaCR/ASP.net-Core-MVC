@@ -31,5 +31,9 @@ namespace WebApplicationDemo.Models
         [StringLength(500, ErrorMessage = "La explicacion no puede tener más de 500 carácteres")]
         [Display(Name = "Explicación")]
         public string Explicacion { get; set; }
+
+        [Required(ErrorMessage = "Elige una prioridad")]
+        [Display(Name = "Prioridad")]
+        public string Prioridad { get; set; }
     }
 }

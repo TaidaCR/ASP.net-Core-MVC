@@ -6,7 +6,7 @@
 <h2>Listado de tareas</h2>
 
 <p>
-    @Html.ActionLink("Crear una nueva tareas", "Crear")
+    @Html.ActionLink("Crear una nueva tarea", "Crear")
 </p>
 
 <table class="table">
@@ -24,6 +24,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.EstaCompleta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prioridad)
             </th>
         </tr>
     </thead>
@@ -52,6 +55,16 @@
                                value="true"
                         @(item.EstaCompleta ? "checked" : "")
                                onchange="this.form.submit()" />
+                    </form>
+                </td>
+                <td>
+                    <form asp-action="ActualizarPrioridad" method="post">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <select name="prioridad" onchange="this.form.submit()" class="form-select">
+                            <option value="Alta" selected="@(item.Prioridad == "Alta")">Alta</option>
+                            <option value="Media" selected="@(item.Prioridad == "Media")">Media</option>
+                            <option value="Baja" selected="@(item.Prioridad == "Baja")">Baja</option>
+                        </select>
                     </form>
                 </td>
                 <td>

@@ -2,7 +2,11 @@
   "Files": [
     {
       "Id": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplicationDemo.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebApplicationDemo.bundle.scp.css"
+      "PackagePath": "staticwebassets\\WebApplicationDemo.926sltletm.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\css\\main.min.css"
     },
     {
       "Id": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\css\\site.css",
@@ -11,6 +15,14 @@
     {
       "Id": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\js\\main.min.js"
     },
     {
       "Id": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\js\\site.js",
@@ -243,6 +255,10 @@
     {
       "Id": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplicationDemo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplicationDemo.Microsoft.AspNetCore.StaticWebAssets.props",

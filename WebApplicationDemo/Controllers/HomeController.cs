@@ -73,6 +73,7 @@ namespace WebApplicationDemo.Controllers
             tareaExistente.FechaVencimiento = tarea.FechaVencimiento;
             tareaExistente.EstaCompleta = tarea.EstaCompleta;
             tareaExistente.Explicacion = tarea.Explicacion;
+            tareaExistente.Prioridad = tarea.Prioridad;
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
@@ -102,6 +103,38 @@ namespace WebApplicationDemo.Controllers
                 _context.SaveChanges();
             }
             return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult ActualizarPrioridad(int id, string prioridad)
+        {
+            // Busca la tarea por ID
+            var tarea = _context.Tarea.FirstOrDefault(t => t.Id == id);
+            if (tarea != null)
+            {
+                // Actualiza la prioridad
+                tarea.Prioridad = prioridad;
+                _context.SaveChanges(); // Guarda los cambios en la base de datos
+            }
+
+            // Redirige a la lista de tareas
+            return RedirectToAction("Index");
+        }
+
+        
+        //public IActionResult Calendar()
+        //{
+        //    return View();
+        //}
+        [HttpGet]
+        public ActionResult Calendar()
+        {
+            // Obtener todas las tareas
+            var tareas = _context.Tarea.ToList() ?? new List<Tarea>();
+
+            ViewBag.FechasVencimiento = tareas.Select(t => t.FechaVencimiento).ToList();
+
+            return View(tareas);
         }
     }
 }
