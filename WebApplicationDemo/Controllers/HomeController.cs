@@ -40,7 +40,10 @@ namespace WebApplicationDemo.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View(tarea);
+                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    Console.WriteLine(error.ErrorMessage);
+                }
             }
             _context.Tarea.Add(tarea);
             _context.SaveChanges();

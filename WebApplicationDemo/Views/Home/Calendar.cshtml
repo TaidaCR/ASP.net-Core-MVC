@@ -7,6 +7,10 @@
 
 <div id="calendar"></div>
 
+<div>
+    <a class="btn btn-back" href="/Home/Index">Volver</a>
+</div>
+
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var calendarEl = document.getElementById('calendar');
@@ -35,6 +39,8 @@
         </text>
     }
             ],
+
+            aspectRatio: 2/1,
             eventClick: function(info) {
                 alert('Tarea: ' + info.event.title + '\nDescripción: ' + info.event.extendedProps.description);
             }

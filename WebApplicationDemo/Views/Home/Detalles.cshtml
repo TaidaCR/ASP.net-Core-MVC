@@ -6,14 +6,19 @@
 
 <h1>@ViewData["Title"]</h1>
 
-<div class="card">
+<div class="card" id="details-container">
     <div class="card-body">
         <h5 class="card-title">Tarea: @Model.Nombre</h5>
-        <p class="card-text">Descripción: @Model.Descripcion</p>
-        <p class="card-text">Fecha de Vencimiento: @Model.FechaVencimiento.ToShortDateString()</p>
+        <p class="card-text"><strong>Descripción:</strong> @Model.Descripcion</p>
+        <p class="card-text"><strong>Fecha de Vencimiento:</strong> @Model.FechaVencimiento.ToShortDateString()</p>
         @* <p class="card-text">Completada: @Html.Raw(Model.EstaCompleta == true ? "Sí" : "No")</p> *@
-        <p class="card-text">Completada: <input type="checkbox" @(Model.EstaCompleta ? "checked" : "") disabled /></p>
-        <p class="card-text">Explicacion: @Model.Explicacion</p>
-        <p class="card-text">Prioridad: @Model.Prioridad</p>
+        <p class="card-text"><strong>Completada:</strong> <input type="checkbox" @(Model.EstaCompleta ? "checked" : "") disabled /></p>
+        <p class="card-text"><strong>Explicacion:</strong> @Model.Explicacion</p>
+        <p class="card-text"><strong>Prioridad:</strong> @Model.Prioridad</p>
     </div>
 </div>
+
+<div>
+    <a class="btn btn-back" href="/Home/Index">Volver</a>
+</div>
+

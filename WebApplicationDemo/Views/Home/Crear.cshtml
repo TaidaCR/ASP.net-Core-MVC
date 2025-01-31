@@ -5,41 +5,42 @@
 @* Razor syntax para vincular datos entre el modelo (definido en C#) y la vista (HTML). *@
 
 @* Envia al metodo crear *@
-<form asp-action="Crear">
+<form asp-action="Crear" id="nueva-tarea">
     <div class="form-group">
-        <label asp-for="Nombre" class="control-label"></label>
+        <label asp-for="Nombre" class="control-label"><strong>@Html.DisplayNameFor(model => model.Nombre)</strong></label>
         <input asp-for="Nombre" class="form-control"/>
         <span asp-validation-for="Nombre" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Descripcion" class="control-label"></label>
+        <label asp-for="Descripcion" class="control-label"><strong>@Html.DisplayNameFor(model => model.Descripcion)</strong></label>
         <input asp-for="Descripcion" class="form-control" />
     </div>
     <div class="form-group">
-        <label asp-for="FechaVencimiento" class="control-label"></label>
+        <label asp-for="FechaVencimiento" class="control-label"><strong>@Html.DisplayNameFor(model => model.FechaVencimiento)</strong></label>
         <input asp-for="FechaVencimiento" class="form-control" />
         <span asp-validation-for="FechaVencimiento" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="EstaCompleta" class="control-label"></label><br/>
+        <label asp-for="EstaCompleta" class="control-label"><strong>@Html.DisplayNameFor(model => model.EstaCompleta)</strong></label><br />
         <input asp-for="EstaCompleta" type="checkbox" class="form-check-input" />
         @* <input type="radio" value="true" name="EstaCompleta"/>Sí<br/>
         <input type="radio" value="false" name="EstaCompleta" />No<br /> *@
         <span asp-validation-for="EstaCompleta" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Prioridad" class="control-label"></label>
+        <label asp-for="Prioridad" class="control-label"><strong>@Html.DisplayNameFor(model => model.Prioridad)</strong></label>
         <select asp-for="Prioridad" class="form-control" asp-items="@(new SelectList(new[] { "Alta", "Media", "Baja" }))">
             <option value="">Seleccione una prioridad</option> <!-- Opción por defecto -->
         </select>
         <span asp-validation-for="Prioridad" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Explicacion" class="control-label"></label>
-        <input asp-for="Explicacion" class="form-control" />
+        <label asp-for="Explicacion" class="control-label"><strong>@Html.DisplayNameFor(model => model.Explicacion)</strong></label>
+        <textarea asp-for="Explicacion" class="form-control input-explicacion" ></textarea>
     </div>
     <div class="form-group">
-        <input type="submit" value="Guardar" class="btn btn-primary" />
+        <input type="submit" value="Guardar" class="btn btn-save"/>
+        <a class="btn btn-back" href="/Home/Index">Cancelar</a>
     </div>
 </form>
 

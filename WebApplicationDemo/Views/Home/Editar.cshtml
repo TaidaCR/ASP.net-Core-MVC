@@ -6,7 +6,7 @@
 
 <h1>@ViewData["Title"]</h1>
 
-<div class="row">
+<div class="row" id="edit-container">
     <div class="col-md-4">
         <form method="post" action="/Home/Editar">
             <div class="text-danger" id="validation-summary"></div>
@@ -16,42 +16,42 @@
 
             <!-- Campo manual para Nombre -->
             <div class="form-group">
-                <label for="Nombre" class="control-label">Nombre</label>
+                <label for="Nombre" class="control-label"><strong>Nombre</strong></label>
                 <input type="text" id="Nombre" name="Nombre" class="form-control" value="@Model.Nombre" />
                 <div class="text-danger" id="Nombre-error"></div>
             </div>
 
             <!-- Campo manual para Descripción -->
             <div class="form-group">
-                <label for="Descripcion" class="control-label">Descripción</label>
+                <label for="Descripcion" class="control-label"><strong>Descripción</strong></label>
                 <input type="text" id="Descripcion" name="Descripcion" class="form-control" value="@Model.Descripcion" />
                 <div class="text-danger" id="Descripcion-error"></div>
             </div>
 
             <!-- Campo manual para FechaVencimiento -->
             <div class="form-group">
-                <label for="FechaVencimiento" class="control-label">Fecha de vencimiento</label>
+                <label for="FechaVencimiento" class="control-label"><strong>Fecha de vencimiento</strong></label>
                 <input type="date" id="FechaVencimiento" name="FechaVencimiento" class="form-control" value="@Model.FechaVencimiento.ToString("yyyy-MM-dd")" />
                 <div class="text-danger" id="FechaVencimiento-error"></div>
             </div>
 
             <!-- Campo manual para EstaCompleta (Checkbox) -->
             <div class="form-group">
-                <label for="EstaCompleta" class="control-label">¿Está completa?</label>
+                <label for="EstaCompleta" class="control-label"><strong>¿Está completa?</strong></label>
                 <input type="checkbox" id="EstaCompleta" name="EstaCompleta" class="form-check-input" @(Model.EstaCompleta ? "checked" : "") />
                 <div class="text-danger" id="EstaCompleta-error"></div>
             </div>
 
             <!-- Campo manual para Explicación -->
             <div class="form-group">
-                <label for="Explicacion" class="control-label">Explicación</label>
+                <label for="Explicacion" class="control-label"><strong>Explicación</strong></label>
                 <input type="text" id="Explicacion" name="Explicacion" class="form-control" value="@Model.Explicacion" />
                 <div class="text-danger" id="Explicacion-error"></div>
             </div>
 
             <!-- Campo manual para Prioridad (Select) -->
             <div class="form-group">
-                <label asp-for="Prioridad" class="control-label"></label>
+                <label asp-for="Prioridad" class="control-label"><strong>@Html.DisplayNameFor(model => model.Prioridad)</strong></label>
                 <select asp-for="Prioridad" class="form-control" asp-items="@(new SelectList(new[] { "Alta", "Media", "Baja" }))">
                     <option value="">Seleccione una prioridad</option> <!-- Opción por defecto -->
                 </select>
@@ -59,13 +59,15 @@
             </div>
 
             <!-- Botón de enviar -->
-            <div class="form-group">
-                <input type="submit" value="Guardar" class="btn btn-primary" />
+            <div class="form-group btn-container">
+                <input type="submit" value="Guardar" class="btn btn-save" />
+                <a class="btn btn-back" href="/Home/Index">Volver</a>
             </div>
+            
         </form>
     </div>
 </div>
 
 <div>
-    <a href="/Home/Index">Volver a la lista de tareas</a>
+   
 </div>

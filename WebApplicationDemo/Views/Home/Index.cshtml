@@ -2,35 +2,38 @@
 @{
     ViewData["Title"] = "Home Page";
 }
+<div class="title-container">
+    <h2>Listado de tareas</h2>
+    <div class="tareas-pendientes-container">Tareas Pendientes: <span id="tareasPendientes">0</span></div>
 
-<h2>Listado de tareas</h2>
+</div>
 
 <p>
-    @Html.ActionLink("Crear una nueva tarea", "Crear")
+    @Html.ActionLink("Nueva tarea", "Crear", new { id = "btn-new-task" }, new { @class = "btn btn-new-task" })
 </p>
+
 
 <table class="table">
     <thead>
         <tr>
             <th>
-                @* Obtiene el [Display(Name ="Tarea")] *@
-                @Html.DisplayNameFor(model => model.Nombre)
+                <button type="button" id="sort-name" class="btn-filter">Tarea</button>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Descripcion)
+                <button type="button" id="sort-description" class="btn-filter">Descripción</button>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FechaVencimiento)
+                <button type="button" id="sort-date" class="btn-filter">Fecha Vencimiento</button>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.EstaCompleta)
+                <button type="button" id="filter-complete" class="btn-filter">Completada</button>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Prioridad)
+                <button type="button" id="sort-priority" class="btn-filter">Prioridad</button>
             </th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="task-body">
         @foreach (var item in Model)
         {
             <tr>
@@ -41,16 +44,17 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Descripcion)
                 </td>
-                <td>
+                <td class="fecha-vencimiento">
                     @Html.DisplayFor(modelItem => item.FechaVencimiento)
                 </td>
                 <td>
                     @* @Html.Raw(item.EstaCompleta == true ? "Sí" : "No") *@
                     @* <input type="checkbox" @(item.EstaCompleta ? "checked" : "") disabled /> *@
 
-                    <form asp-action="ActualizarEstado" method="post">
+                    <form asp-action="ActualizarEstado" method="post" class="estado-form">
                         <input type="hidden" name="id" value="@item.Id" />
                         <input type="checkbox"
+                            class="estado-checkbox"
                                name="estado"
                                value="true"
                         @(item.EstaCompleta ? "checked" : "")
@@ -69,12 +73,117 @@
                 </td>
                 <td>
                    @*Genera un link// Texto que se ve//     método en el controller*@
-                    @Html.ActionLink("Detalles",            "Detalles", new { id = item.Id }) |
-                    @Html.ActionLink("Editar",              "Editar", new {id=item.Id}) |
-                    @Html.ActionLink("Eliminar",            "Eliminar", new { id = item.Id }) 
+                    @Html.ActionLink("Detalles", "Detalles", new { id = item.Id }, new { @class = "btn btn-info" })
+                    @Html.ActionLink("Editar", "Editar", new { id = item.Id }, new { @class = "btn btn-edit" })
+                    @Html.ActionLink("Eliminar", "Eliminar", new { id = item.Id }, new { @class = "btn btn-danger" })
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+<script>
+/*CONTADOR TAREAS PENDIENTES */
+    function countPendingTasks () {
+        let checkboxes = document.querySelectorAll(".estado-checkbox");
+        let pending = 0;
+
+        checkboxes.forEach(checkbox=> {
+            if (!checkbox.checked){
+                pending++;
+            }
+        
+    });
+    document.getElementById("tareasPendientes").textContent=pending;
+    }
+    document.addEventListener("DOMContentLoaded", countPendingTasks);
+
+/*ORDENAR TAREAS ALFABETICAMENTE */
+    $(document).ready(function () {
+        let isNameAscending = true;
+
+        $('#sort-name').click(function () {
+                                        //.get convierte en array
+            let rows = $('#task-body tr').get();
+
+            //sort: ordena elementos array
+            rows.sort(function (a, b) {
+                let tdA = $(a).find('td').eq(0).text().toUpperCase();
+                let tdB = $(b).find('td').eq(0).text().toUpperCase();
+
+                if (isNameAscending) {
+                    return tdA < tdB ? -1 : tdA > tdB ? 1 : 0;
+                } else {
+                    return tdA < tdB ? 1 : tdA > tdB ? -1 : 0;
+                }
+            });
+
+            isNameAscending = !isNameAscending;
+
+            $.each(rows, function (index, row) {
+                $('#task-body').append(row);
+            });
+        });
+
+    });
+
+/*ORDENAR TAREAS POR DESCRIPCION */
+        $(document).ready(function () {
+            let isNameAscending = true;
+
+            $('#sort-description').click(function () {
+                                            //.get convierte en array
+                let rows = $('#task-body tr').get();
+
+                //sort: ordena elementos array
+                rows.sort(function (a, b) {
+                    let tdA = $(a).find('td').eq(0).text().toUpperCase();
+                    let tdB = $(b).find('td').eq(0).text().toUpperCase();
+
+                    if (isNameAscending) {
+                        return tdA < tdB ? -1 : tdA > tdB ? 1 : 0;
+                    } else {
+                        return tdA < tdB ? 1 : tdA > tdB ? -1 : 0;
+                    }
+                });
+
+                isNameAscending = !isNameAscending;
+
+                $.each(rows, function (index, row) {
+                    $('#task-body').append(row);
+                });
+            });
+
+        });
+
+/*ORDENAR TAREAS POR FECHA */
+        $(document).ready(function () {
+            let isNameAscending = true;
+
+            $('#sort-date').click(function () {
+                                            //.get convierte en array
+                let rows = $('#task-body tr').get();
+
+                //sort: ordena elementos array
+                rows.sort(function (a, b) {
+                    let tdA = $(a).find('td').eq(0).text();
+                    let tdB = $(b).find('td').eq(0).text();
+
+                    if (isNameAscending) {
+                        return tdA < tdB ? -1 : tdA > tdB ? 1 : 0;
+                    } else {
+                        return tdA < tdB ? 1 : tdA > tdB ? -1 : 0;
+                    }
+                });
+
+                isNameAscending = !isNameAscending;
+
+                $.each(rows, function (index, row) {
+                    $('#task-body').append(row);
+                });
+            });
+
+        });
+
+</script>
 

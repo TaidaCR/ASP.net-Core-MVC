@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KNUf7TiMrhPxQ/HFXuT7PIbxX2BZ4Tsdhq2wyxcQJVo=",
+  "Hash": "X85GXGlOgqhDCbxl5L49D/E0P+IbhalG7CbEwXzBjVI=",
   "Source": "WebApplicationDemo",
   "BasePath": "_content/WebApplicationDemo",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f5xb80zg2r",
-      "Integrity": "k7Tm/tYPYCgSlTZ5CLY8tlmhNHM2QptJ7dlITyG5iks=",
+      "Fingerprint": "rghh514dhj",
+      "Integrity": "VUSG2Ac8XsXE0OMukDvlqZ2CcDxcoBSgsga42GvhKt0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "xcaxcsl0oe",
+      "Integrity": "T4GeXZbSw7uKnfxgKbVD/aWbay8uI1RBte5yPbg1dn8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1123,8 +1123,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "81b7ukuj9c",
-      "Integrity": "ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk=",
+      "Fingerprint": "z6qzljqjd0",
+      "Integrity": "WzAxfJw1u28FEBxQHehmzGhSq5tlXc9ZQXM/ZkTD69A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
@@ -1207,8 +1207,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mlv21k5csn",
-      "Integrity": "hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=",
+      "Fingerprint": "jfsiqqwiad",
+      "Integrity": "kR0ThRjy07+hq4p08nfdkjN+pI94Gj2rK5lyE0buITU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
@@ -1228,8 +1228,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ay5nd8zt9x",
-      "Integrity": "4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E=",
+      "Fingerprint": "gcjdx5jb8l",
+      "Integrity": "0HeMWyQUbTbe7SGnSYbjj9+HVA0hKDmEUtbYoTKe+Bk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
@@ -1249,8 +1249,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9oaff4kq20",
-      "Integrity": "N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc=",
+      "Fingerprint": "35gxhxa0gh",
+      "Integrity": "90Rlzuz8pIZK4g9o2I7nGK+9n5cU9Rbdt4GtxRO5arA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
@@ -1312,8 +1312,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "x0q3zqp4vz",
-      "Integrity": "geHEkw/WGPdaHQMRq5HuNY9snliNzU/y2OW8ycnhGXw=",
+      "Fingerprint": "xzw0cte36n",
+      "Integrity": "85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "356vix0kms",
-      "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
+      "Fingerprint": "l3n5xuwxn8",
+      "Integrity": "z8IfXovWVa6ZfuyRYTi3B7HSkLgycsAqlcn4IbjIcxA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
@@ -1406,7 +1406,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 08:37:41 GMT"
+          "Value": "Sun, 26 Jan 2025 19:47:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1443,7 +1443,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 08:37:41 GMT"
+          "Value": "Sun, 26 Jan 2025 19:47:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1476,7 +1476,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "587"
+          "Value": "3663"
         },
         {
           "Name": "Content-Type",
@@ -1484,11 +1484,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k7Tm/tYPYCgSlTZ5CLY8tlmhNHM2QptJ7dlITyG5iks=\""
+          "Value": "\"VUSG2Ac8XsXE0OMukDvlqZ2CcDxcoBSgsga42GvhKt0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 09:31:33 GMT"
+          "Value": "Fri, 31 Jan 2025 11:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1498,12 +1498,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-k7Tm/tYPYCgSlTZ5CLY8tlmhNHM2QptJ7dlITyG5iks="
+          "Value": "sha256-VUSG2Ac8XsXE0OMukDvlqZ2CcDxcoBSgsga42GvhKt0="
         }
       ]
     },
     {
-      "Route": "css/site.f5xb80zg2r.css",
+      "Route": "css/site.rghh514dhj.css",
       "AssetFile": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1513,7 +1513,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "587"
+          "Value": "3663"
         },
         {
           "Name": "Content-Type",
@@ -1521,11 +1521,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k7Tm/tYPYCgSlTZ5CLY8tlmhNHM2QptJ7dlITyG5iks=\""
+          "Value": "\"VUSG2Ac8XsXE0OMukDvlqZ2CcDxcoBSgsga42GvhKt0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 09:31:33 GMT"
+          "Value": "Fri, 31 Jan 2025 11:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1535,7 +1535,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f5xb80zg2r"
+          "Value": "rghh514dhj"
         },
         {
           "Name": "label",
@@ -1543,7 +1543,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-k7Tm/tYPYCgSlTZ5CLY8tlmhNHM2QptJ7dlITyG5iks="
+          "Value": "sha256-VUSG2Ac8XsXE0OMukDvlqZ2CcDxcoBSgsga42GvhKt0="
         }
       ]
     },
@@ -1652,7 +1652,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 09:23:56 GMT"
+          "Value": "Sun, 26 Jan 2025 19:47:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1689,7 +1689,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 09:23:56 GMT"
+          "Value": "Sun, 26 Jan 2025 19:47:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1734,7 +1734,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 08:38:00 GMT"
+          "Value": "Sun, 26 Jan 2025 19:47:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1779,7 +1779,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Jan 2025 08:38:00 GMT"
+          "Value": "Sun, 26 Jan 2025 19:47:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1804,7 +1804,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "228"
         },
         {
           "Name": "Content-Type",
@@ -1812,11 +1812,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"T4GeXZbSw7uKnfxgKbVD/aWbay8uI1RBte5yPbg1dn8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Fri, 31 Jan 2025 11:26:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1826,12 +1826,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-T4GeXZbSw7uKnfxgKbVD/aWbay8uI1RBte5yPbg1dn8="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
+      "Route": "js/site.xcaxcsl0oe.js",
       "AssetFile": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1841,7 +1841,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "228"
         },
         {
           "Name": "Content-Type",
@@ -1849,11 +1849,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"T4GeXZbSw7uKnfxgKbVD/aWbay8uI1RBte5yPbg1dn8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Fri, 31 Jan 2025 11:26:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1863,7 +1863,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "xcaxcsl0oe"
         },
         {
           "Name": "label",
@@ -1871,7 +1871,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-T4GeXZbSw7uKnfxgKbVD/aWbay8uI1RBte5yPbg1dn8="
         }
       ]
     },
@@ -5494,7 +5494,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1153"
+          "Value": "1131"
         },
         {
           "Name": "Content-Type",
@@ -5502,11 +5502,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk=\""
+          "Value": "\"WzAxfJw1u28FEBxQHehmzGhSq5tlXc9ZQXM/ZkTD69A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5516,12 +5516,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk="
+          "Value": "sha256-WzAxfJw1u28FEBxQHehmzGhSq5tlXc9ZQXM/ZkTD69A="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
+      "Route": "lib/bootstrap/LICENSE.z6qzljqjd0",
       "AssetFile": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5531,7 +5531,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1153"
+          "Value": "1131"
         },
         {
           "Name": "Content-Type",
@@ -5539,11 +5539,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk=\""
+          "Value": "\"WzAxfJw1u28FEBxQHehmzGhSq5tlXc9ZQXM/ZkTD69A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5553,7 +5553,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "81b7ukuj9c"
+          "Value": "z6qzljqjd0"
         },
         {
           "Name": "label",
@@ -5561,7 +5561,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk="
+          "Value": "sha256-WzAxfJw1u28FEBxQHehmzGhSq5tlXc9ZQXM/ZkTD69A="
         }
       ]
     },
@@ -5812,7 +5812,7 @@
       ]
     },
     {
-      "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
+      "Route": "lib/jquery/LICENSE.jfsiqqwiad.txt",
       "AssetFile": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5822,7 +5822,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1117"
+          "Value": "1097"
         },
         {
           "Name": "Content-Type",
@@ -5830,11 +5830,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
+          "Value": "\"kR0ThRjy07+hq4p08nfdkjN+pI94Gj2rK5lyE0buITU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5844,7 +5844,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mlv21k5csn"
+          "Value": "jfsiqqwiad"
         },
         {
           "Name": "label",
@@ -5852,7 +5852,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+          "Value": "sha256-kR0ThRjy07+hq4p08nfdkjN+pI94Gj2rK5lyE0buITU="
         }
       ]
     },
@@ -5867,7 +5867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1117"
+          "Value": "1097"
         },
         {
           "Name": "Content-Type",
@@ -5875,11 +5875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
+          "Value": "\"kR0ThRjy07+hq4p08nfdkjN+pI94Gj2rK5lyE0buITU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5889,12 +5889,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+          "Value": "sha256-kR0ThRjy07+hq4p08nfdkjN+pI94Gj2rK5lyE0buITU="
         }
       ]
     },
     {
-      "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
+      "Route": "lib/jquery-validation/dist/additional-methods.gcjdx5jb8l.js",
       "AssetFile": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5904,7 +5904,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "52977"
+          "Value": "51466"
         },
         {
           "Name": "Content-Type",
@@ -5912,11 +5912,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E=\""
+          "Value": "\"0HeMWyQUbTbe7SGnSYbjj9+HVA0hKDmEUtbYoTKe+Bk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5926,7 +5926,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ay5nd8zt9x"
+          "Value": "gcjdx5jb8l"
         },
         {
           "Name": "label",
@@ -5934,7 +5934,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E="
+          "Value": "sha256-0HeMWyQUbTbe7SGnSYbjj9+HVA0hKDmEUtbYoTKe+Bk="
         }
       ]
     },
@@ -5949,7 +5949,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "52977"
+          "Value": "51466"
         },
         {
           "Name": "Content-Type",
@@ -5957,11 +5957,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E=\""
+          "Value": "\"0HeMWyQUbTbe7SGnSYbjj9+HVA0hKDmEUtbYoTKe+Bk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5971,12 +5971,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E="
+          "Value": "sha256-0HeMWyQUbTbe7SGnSYbjj9+HVA0hKDmEUtbYoTKe+Bk="
         }
       ]
     },
     {
-      "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
+      "Route": "lib/jquery-validation/dist/additional-methods.min.35gxhxa0gh.js",
       "AssetFile": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5986,7 +5986,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22177"
+          "Value": "22174"
         },
         {
           "Name": "Content-Type",
@@ -5994,11 +5994,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc=\""
+          "Value": "\"90Rlzuz8pIZK4g9o2I7nGK+9n5cU9Rbdt4GtxRO5arA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6008,7 +6008,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9oaff4kq20"
+          "Value": "35gxhxa0gh"
         },
         {
           "Name": "label",
@@ -6016,7 +6016,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc="
+          "Value": "sha256-90Rlzuz8pIZK4g9o2I7nGK+9n5cU9Rbdt4GtxRO5arA="
         }
       ]
     },
@@ -6031,7 +6031,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22177"
+          "Value": "22174"
         },
         {
           "Name": "Content-Type",
@@ -6039,11 +6039,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc=\""
+          "Value": "\"90Rlzuz8pIZK4g9o2I7nGK+9n5cU9Rbdt4GtxRO5arA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6053,7 +6053,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc="
+          "Value": "sha256-90Rlzuz8pIZK4g9o2I7nGK+9n5cU9Rbdt4GtxRO5arA="
         }
       ]
     },
@@ -6232,7 +6232,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1117"
+          "Value": "1095"
         },
         {
           "Name": "Content-Type",
@@ -6240,11 +6240,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"geHEkw/WGPdaHQMRq5HuNY9snliNzU/y2OW8ycnhGXw=\""
+          "Value": "\"85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6254,12 +6254,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-geHEkw/WGPdaHQMRq5HuNY9snliNzU/y2OW8ycnhGXw="
+          "Value": "sha256-85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA="
         }
       ]
     },
     {
-      "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
+      "Route": "lib/jquery-validation/LICENSE.xzw0cte36n.md",
       "AssetFile": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6269,7 +6269,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1117"
+          "Value": "1095"
         },
         {
           "Name": "Content-Type",
@@ -6277,11 +6277,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"geHEkw/WGPdaHQMRq5HuNY9snliNzU/y2OW8ycnhGXw=\""
+          "Value": "\"85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6291,7 +6291,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x0q3zqp4vz"
+          "Value": "xzw0cte36n"
         },
         {
           "Name": "label",
@@ -6299,7 +6299,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-geHEkw/WGPdaHQMRq5HuNY9snliNzU/y2OW8ycnhGXw="
+          "Value": "sha256-85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA="
         }
       ]
     },
@@ -6468,7 +6468,7 @@
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
+      "Route": "lib/jquery-validation-unobtrusive/LICENSE.l3n5xuwxn8.txt",
       "AssetFile": "C:\\Users\\taica\\source\\repos\\WebApplicationDemo\\WebApplicationDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6478,7 +6478,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1139"
+          "Value": "1116"
         },
         {
           "Name": "Content-Type",
@@ -6486,11 +6486,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
+          "Value": "\"z8IfXovWVa6ZfuyRYTi3B7HSkLgycsAqlcn4IbjIcxA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6500,7 +6500,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "356vix0kms"
+          "Value": "l3n5xuwxn8"
         },
         {
           "Name": "label",
@@ -6508,7 +6508,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+          "Value": "sha256-z8IfXovWVa6ZfuyRYTi3B7HSkLgycsAqlcn4IbjIcxA="
         }
       ]
     },
@@ -6523,7 +6523,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1139"
+          "Value": "1116"
         },
         {
           "Name": "Content-Type",
@@ -6531,11 +6531,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
+          "Value": "\"z8IfXovWVa6ZfuyRYTi3B7HSkLgycsAqlcn4IbjIcxA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 08:24:29 GMT"
+          "Value": "Sun, 26 Jan 2025 19:48:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6545,7 +6545,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+          "Value": "sha256-z8IfXovWVa6ZfuyRYTi3B7HSkLgycsAqlcn4IbjIcxA="
         }
       ]
     },
@@ -6572,7 +6572,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 10:55:44 GMT"
+          "Value": "Thu, 30 Jan 2025 08:52:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6617,7 +6617,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 10:55:44 GMT"
+          "Value": "Thu, 30 Jan 2025 08:52:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6662,7 +6662,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 10:55:44 GMT"
+          "Value": "Thu, 30 Jan 2025 08:52:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6699,7 +6699,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Nov 2024 10:55:44 GMT"
+          "Value": "Thu, 30 Jan 2025 08:52:58 GMT"
         },
         {
           "Name": "Cache-Control",
